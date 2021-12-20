@@ -1,0 +1,15 @@
+{
+  "name": "Sait Can Tunç Link Hub",
+  "description": "A Link hub to reach Sait Can Tunç Content ",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "favicon_16.png",
+    "17" : "logo_17.svg"
+  },
+
+  "action": {
+    "default_icon": "favicon_16.png",
+    "default_popup": "popup.html"
+  }
+}

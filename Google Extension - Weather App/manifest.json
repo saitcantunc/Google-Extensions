@@ -1,0 +1,13 @@
+{
+    "name": "Sait Can Tunç Weather App",
+    "description": "Weather App ",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "icons": {
+        "48": "favicon_48.png"
+    },
+    "action": {
+        "default_icon": "favicon_48.png",
+        "default_popup": "index.html"
+    }
+}

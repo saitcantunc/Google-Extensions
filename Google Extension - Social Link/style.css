@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+:root{
+--bc: #9dc88d;
+--bc-2: #f1b24a;
+--titlec: #fff;
+--linkc: #164a41;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Smooch', cursive;
+}
+
+.container {
+    width: 400px;
+    min-width: 200px;
+    height: 200px;
+    min-height: 200px;
+    background: linear-gradient(180deg, var(--bc) 0%, var(--bc-2) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--linkc);
+}
+
+.title h2 {
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: var(--titlec);
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+a {
+    transform: rotate(0);
+    transition: all .7s;
+    color: var(--linkc);
+}
+
+a:hover {
+    font-size: 40px;
+    transform: rotate(360deg);
+}
+

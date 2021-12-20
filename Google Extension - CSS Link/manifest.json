@@ -1,0 +1,14 @@
+{
+    "name": "Sait Can Tunç CSS Link Hub",
+    "description": "A CSS Link hub to reach Sait Can Tunç Content ",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "icons": {
+      "48": "favicon-48.png"
+    },
+  
+    "action": {
+      "default_icon": "favicon-48.png",
+      "default_popup": "index.html"
+    }
+}
